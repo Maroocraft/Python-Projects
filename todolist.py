@@ -25,10 +25,10 @@ while close == False:
      chtask2 = input('What do you want to change it to: ')
 
      if chtask1 in lst:
-    # Get the index of chtask1
+
       chtask1_index = lst.index(chtask1)
     
-    # Replace the old task with the new task
+
       lst[chtask1_index] = chtask2
       print('Item changed successfully')
      else:
